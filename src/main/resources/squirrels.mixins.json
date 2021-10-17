@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tempora.dev.squirrels.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "DefaultBiomeFeaturesMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "squirrels",
+  "version": "${version}",
+  "name": "Squirrels",
+  "description": "So cute.",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/squirrels/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "tempora.dev.squirrels.Squirrels"
+    ],
+    "main": [
+      "tempora.dev.squirrels.Squirrels"
+    ]
+  },
+  "mixins": [
+    "squirrels.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
