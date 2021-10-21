@@ -13,8 +13,8 @@ import tempora.dev.squirrels.Squirrels;
 
 @Mixin(DefaultBiomeFeatures.class)
 public class DefaultBiomeFeaturesMixin {
-    @Inject(method = "addFarmAnimals", at = @At("TAIL"))
-    private static void addFarmAnimals(SpawnSettings.Builder builder, CallbackInfo ci) {
+    @Inject(method = "addMonsters", at = @At("TAIL"))
+    private static void addMonsters(SpawnSettings.Builder builder, int zombieWeight, int zombieVillagerWeight, int skeletonWeight, CallbackInfo ci) {
         builder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(Squirrels.SQUIRREL_ENTITY_TYPE, 8, 6, 6));
     }
 }
