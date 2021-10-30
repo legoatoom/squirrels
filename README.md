@@ -1,4 +1,4 @@
-<p><a href="https://discord.gg/rXJvtECsm8">https://discord.gg/rXJvtECsm8</a></p>
+
 <p>&nbsp;</p>
 <p>These tiny little creatures will surely warm your heart.</p>
 <p>Squirrels adds the Squirrel Mob, and related acorns, cones and other items that can be used to breed squirrels.</p>
